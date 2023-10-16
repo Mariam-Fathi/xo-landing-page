@@ -51,12 +51,12 @@ const Nav = () => {
               </div>
 
               <div className="">
-                <ul className="w-screen h-screen flex flex-col flex-1 justify-center items-center gap-36">
+                <ul className="w-screen h-screen flex flex-col flex-1 justify-center items-center gap-12">
                  {navLinks.map((item) => (
-                    <li key={item.label}>
+                    <li key={item.label} className='hover:scale-110'>
                       <a
                         href={item.href}
-                        className='font-montserrat font-bold leading-normal text-2xl text-coral-red'
+                        className='font-montserrat font-bold leading-normal text-2xl text-black hover:text-coral-red'
                         onClick={() => setToggel(!toggel)}
                       >
                         {item.label}
