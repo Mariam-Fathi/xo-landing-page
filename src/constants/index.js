@@ -50,18 +50,7 @@ export const products = [
         name: "XO Air Jordan-001",
         price: "$230.20",
         rating: '4.5',
-    },    {
-        imgURL: shoe4,
-        name: "XO Air Jordan-01",
-        price: "$200.20",
-        rating: '4.5',
-    },
-    {
-        imgURL: shoe5,
-        name: "XO Air Jordan-10",
-        price: "$210.20",
-        rating: '5.0',
-    },
+    },    
     {
         imgURL: shoe6,
         name: "XO Air Jordan-100",
@@ -73,6 +62,18 @@ export const products = [
         name: "XO Air Jordan-001",
         price: "$230.20",
         rating: '4.5',
+    },
+    {
+        imgURL: shoe4,
+        name: "XO Air Jordan-01",
+        price: "$200.20",
+        rating: '4.5',
+    },
+    {
+        imgURL: shoe5,
+        name: "XO Air Jordan-10",
+        price: "$210.20",
+        rating: '5.0',
     },
 ];
 
