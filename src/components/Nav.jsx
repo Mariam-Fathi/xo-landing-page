@@ -4,6 +4,7 @@ import { hamburger } from "../assets/icons";
 import { navLinks } from "../constants";
 
 import { AiOutlineClose } from 'react-icons/ai';
+import { ImPower } from 'react-icons/im';
 
 const Nav = () => {
     const [toggel, setToggel] = useState(false);
@@ -11,7 +12,8 @@ const Nav = () => {
     <header className='padding-x py-8 absolute z-20 w-full'>
       <nav className='flex justify-between items-center max-container'>
         {/* Logo */}
-        <a href='/'>
+        <a className="flex gap-1 items-baseline" href='/'>
+         <ImPower className="text-coral-red w-[25px] h-[25px]" />
          <h1 className="text-coral-red font-extrabold text-[35px]">XO</h1>
         </a>
 
@@ -51,12 +53,12 @@ const Nav = () => {
               </div>
 
               <div className="">
-                <ul className="w-screen h-screen flex flex-col flex-1 justify-center items-center gap-12">
+                <ul className="w-screen h-screen flex flex-col flex-1 justify-center items-center gap-36">
                  {navLinks.map((item) => (
-                    <li key={item.label} className='hover:scale-110'>
+                    <li key={item.label}>
                       <a
                         href={item.href}
-                        className='font-montserrat font-bold leading-normal text-2xl text-black hover:text-coral-red'
+                        className='font-montserrat font-bold leading-normal text-2xl text-coral-red'
                         onClick={() => setToggel(!toggel)}
                       >
                         {item.label}
