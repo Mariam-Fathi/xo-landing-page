@@ -32,6 +32,8 @@ const Nav = () => {
         </ul>
         <div className='flex gap-2 text-lg leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24 hover:scale-110'>
           <a href='/'>Sign in</a>
+          <span>/</span>
+          <a href='/'>Explore now</a>
         </div>
 
         {/* Hamburger Menu */}
