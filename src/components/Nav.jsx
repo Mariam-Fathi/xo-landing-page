@@ -58,7 +58,7 @@ const Nav = () => {
                     <li key={item.label} className='hover:scale-110'>
                       <a
                         href={item.href}
-                        className='font-montserrat font-bold leading-normal text-2xl text-black hover:text-coral-red'
+                        className='font-montserrat font-bold leading-normal text-3xl tracking-widest text-black hover:text-coral-red'
                         onClick={() => setToggel(!toggel)}
                       >
                         {item.label}
