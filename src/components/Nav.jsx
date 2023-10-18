@@ -53,7 +53,7 @@ const Nav = () => {
               </div>
 
               <div className="">
-                <ul className="w-full flex flex-col flex-1 justify-center items-center gap-8">
+                <ul className="w-full min-h-screen flex flex-col flex-1 justify-center items-center gap-8">
                  {navLinks.map((item) => (
                     <li key={item.label} className='hover:scale-110'>
                       <a
