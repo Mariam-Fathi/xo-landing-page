@@ -44,7 +44,7 @@ const Nav = () => {
           onClick={() => setToggel(!toggel)}
           />
           {toggel && (
-            <div className='absolute top-0 right-0 h-screen w-screen bg-white'>
+            <div className='absolute top-0 right-0 h-screen w-screen bg-white z-20'>
               <div className="absolute top-7 right-11">
                 <AiOutlineClose
                   className="w-[28px] h-[28px]"
