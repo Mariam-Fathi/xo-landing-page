@@ -13,7 +13,7 @@ const Nav = () => {
       <nav className='flex justify-between items-center max-container'>
         {/* Logo */}
         <a className="flex gap-1 items-baseline" href='/'>
-         <SlEnergy className="text-coral-red w-[25px] h-[25px]" />
+         <SlEnergy className="text-coral-red w-[28px] h-[28px]" />
          <h1 className="text-coral-red font-bold text-[40px]">XO</h1>
         </a>
 
