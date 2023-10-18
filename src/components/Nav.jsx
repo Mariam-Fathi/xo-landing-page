@@ -14,7 +14,7 @@ const Nav = () => {
         {/* Logo */}
         <a className="flex gap-1 items-baseline" href='/'>
          <ImPower className="text-coral-red w-[25px] h-[25px]" />
-         <h1 className="text-coral-red font-extrabold text-[35px]">XO</h1>
+         <h1 className="text-coral-red font-bold text-[40px]">XO</h1>
         </a>
 
         {/* Navbar-Links */}
@@ -39,8 +39,8 @@ const Nav = () => {
           <img 
           src={hamburger} 
           alt='hamburger icon' 
-          width={25} 
-          height={25}
+          width={30} 
+          height={30}
           onClick={() => setToggel(!toggel)}
           />
           {toggel && (
