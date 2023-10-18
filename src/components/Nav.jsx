@@ -4,7 +4,7 @@ import { hamburger } from "../assets/icons";
 import { navLinks } from "../constants";
 
 import { AiOutlineClose } from 'react-icons/ai';
-import { SlEnergy } from 'react-icons/si';
+import { SlEnergy } from 'react-icons/sl';
 
 const Nav = () => {
     const [toggel, setToggel] = useState(false);
